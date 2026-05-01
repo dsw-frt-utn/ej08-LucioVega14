@@ -25,6 +25,15 @@
             Console.WriteLine(p3.CompararCopias(999, producto));
             ===========================================
             ===========================================*/
+            //EJERCICIO 4 COMPILACION
+            /*Problema4 p4 = new Problema4();
+            Console.WriteLine(p4.CalcularPromedio(8, 6, 10));  aca esta todo bien porque las notas son validas 
+            Console.WriteLine(p4.CalcularPromedio(8, null, 10)); aca tambien esta todo joya porque las notas son validas
+            Console.WriteLine(p4.CalcularPromedio(null, null, null)); // 0
+            Console.WriteLine(p4.CalcularPromedio(8, -1, 10));   // ignora -1 porque no es una nota aceptada, promedio de 8 y 10 = 9
+            Console.WriteLine(p4.CalcularPromedio(8, 15, 10));   // ignora 15 porque no es una nota aceptada tampoco, promedio de 8 y 10 = 9
+            ===========================================
+            ===========================================*/
         }
     }
 }
