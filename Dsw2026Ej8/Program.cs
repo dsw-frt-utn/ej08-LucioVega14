@@ -34,6 +34,14 @@
             Console.WriteLine(p4.CalcularPromedio(8, 15, 10));   // ignora 15 porque no es una nota aceptada tampoco, promedio de 8 y 10 = 9
             ===========================================
             ===========================================*/
+            //EJERCICIO 5 COMPILACION
+            /*Problema5 p5 = new Problema5();
+            RetailSale retail = new RetailSale(15000m);
+            WholesaleSale wholesale = new WholesaleSale(15000m);
+            Console.WriteLine(p5.ObtenerImporteFinal(retail)); Aca se retorna el importe sin el descuento 
+            Console.WriteLine(p5.ObtenerImporteFinal(wholesale)); y aca muestro el importe pero con el descuento del %10
+            ===========================================
+            ===========================================*/    
         }
     }
 }
