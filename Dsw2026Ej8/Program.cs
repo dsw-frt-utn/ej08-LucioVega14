@@ -12,10 +12,19 @@
             ==========================================
             ==========================================*/
             //EJERCICIO 2 COMPILACION
-           /* Problema2 p2 = new Problema2();
-            Console.WriteLine(p2.CrearResumenVenta(1001, "Fernet Branca 750ml", 3, 9500.50m));
-            Console.WriteLine(p2.CrearResumenVenta(1001, "Fernet Branca 750ml", -1, 9500.50m)); // quantity <= 0, total = 0
-           En el segundo me fijo si realmente el total da 0 al ser la cantidad <=0 */
+
+            /* Problema2 p2 = new Problema2();
+             Console.WriteLine(p2.CrearResumenVenta(1001, "Fernet Branca 750ml", 3, 9500.50m));
+             Console.WriteLine(p2.CrearResumenVenta(1001, "Fernet Branca 750ml", -1, 9500.50m)); // quantity <= 0, total = 0
+            En el segundo me fijo si realmente el total da 0 al ser la cantidad <=0 
+            ===========================================
+            ===========================================*/
+            //EJERCICIO 3 COMPILACION
+            /*Problema3 p3 = new Problema3();
+            Product producto = new Product("Descripcion original");
+            Console.WriteLine(p3.CompararCopias(999, producto));
+            ===========================================
+            ===========================================*/
         }
     }
 }
