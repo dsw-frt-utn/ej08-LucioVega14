@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //EJERCICIO 1 COMPILACION
+            /*ProductHelper helper = new ProductHelper();
+
+            string etiqueta = helper.ObtenerEtiquetaProducto(1001, "Coca Cola 500ml", 1500.50m);
+            Console.WriteLine(etiqueta);*/
         }
     }
 }
