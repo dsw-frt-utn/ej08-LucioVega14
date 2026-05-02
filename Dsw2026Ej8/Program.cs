@@ -41,7 +41,14 @@
             Console.WriteLine(p5.ObtenerImporteFinal(retail)); Aca se retorna el importe sin el descuento 
             Console.WriteLine(p5.ObtenerImporteFinal(wholesale)); y aca muestro el importe pero con el descuento del %10
             ===========================================
-            ===========================================*/    
+            ===========================================*/
+            //EJERCICIO 6 COMPILACION
+            /*Problema6 p6 = new Problema6();
+            Console.WriteLine(p6.NormalizarCodigoProducto(" ab 123 x ")); // AB-123-X
+            Console.WriteLine(p6.NormalizarCodigoProducto(null));          // SIN-CODIGO
+            Console.WriteLine(p6.NormalizarCodigoProducto("red label"));   // RED-LABEL
+            ===========================================
+            ===========================================*/
         }
     }
 }
